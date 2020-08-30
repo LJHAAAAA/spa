@@ -1,7 +1,9 @@
 # 自定义UI组件
 
 整体参考案例: -[自定义UI组件](https://spa.wangding.in/chapters/ch07-diy-ui-component.html)  
-脑图大纲: -[自定义UI组件大纲](https://naotu.baidu.com/file/529af44e87eb1ed5566b54b2f23771c0?token=57398acc13e8604d)
+脑图大纲: -[自定义UI组件大纲](https://naotu.baidu.com/file/529af44e87eb1ed5566b54b2f23771c0?token=57398acc13e8604d)  
+具体的代码案例对应于**雪梨第4,5次作业**
+
 
 H5的组件大致经历了以下三个阶段: 
 H5内置空间 -> 第三方组件 -> 自定义组件(功能逐渐完善)  
@@ -74,3 +76,30 @@ $btn.css({
 + sLength: 定时器的时长
 + enabled: 定时器按钮初始状态是否启用
 + 样式: 定时器按钮的样式
+
+### 自定义组件时的封装
+在自定义UI封装成对象时,有以下几种方案  
++ 简单的对象字面量,不完全是面向对象,不能包括私有方法(了解就行,一般不用)
+```
+var timerBtn = {
+  show:function()
+}
+```
++ 工厂函数,一个函数返回值是一个简单对象(最简单,普遍适用)
+```
+var timerBtn = function(){
+  return {
+    show:fuction(){}
+  }
+}
+```
++构造函数
+```
+function TimerBtn(){
+}
+
+var tb = new TimerBtn();
+```
+
+*** 适用立即执行的方式创建一个定时器组件
+![dqPFJ0.png](https://s1.ax1x.com/2020/08/30/dqPFJ0.png)
