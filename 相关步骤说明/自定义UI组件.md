@@ -37,12 +37,12 @@ H5内置空间 -> 第三方组件 -> 自定义组件(功能逐渐完善)
 
 ### 组件绘制
 + 通过模板字符串
-···
+```
 var html = '<input type="button" value="同意">'
 $('div.box').html(html);
-···
+```
 + 操作DOM节点
-···
+```
 var $button = $('<input type="button" value="同意">');
 $('div.box').append($button);
-···
+```
