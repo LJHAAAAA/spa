@@ -38,4 +38,7 @@ MVC 模式同时提供了对 HTML、CSS 和 JavaScript 的完全控制
 + 许多数据验证仅发生在客户端。  
   
 **单页应用程序的缺点**  
-客户端必须启用JavaScript，并使用JavaScript构建单页应用程序，因此应在客户端浏览器中启用JavaScript。
+客户端必须启用JavaScript，并使用JavaScript构建单页应用程序，因此应在客户端浏览器中启用JavaScript。  
+
+### MVP模式简介
+mvp的全称为Model-View-Presenter，Model提供数据，View负责显示，Controller/Presenter负责逻辑的处理。MVP与MVC有着一个重大的区别：在MVP中View并不直接使用Model，它们之间的通信是通过Presenter (MVC中的Controller)来进行的，所有的交互都发生在Presenter内部，而在MVC中View会直接从Model中读取数据而不是通过 Controller。
