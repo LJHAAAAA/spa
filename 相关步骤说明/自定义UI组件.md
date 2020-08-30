@@ -101,5 +101,5 @@ function TimerBtn(){
 var tb = new TimerBtn();
 ```
 
-*** 适用立即执行的方式创建一个定时器组件
+### 适用立即执行的方式创建一个定时器组件
 ![dqPFJ0.png](https://s1.ax1x.com/2020/08/30/dqPFJ0.png)
