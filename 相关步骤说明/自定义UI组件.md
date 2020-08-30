@@ -1,5 +1,7 @@
 # 自定义UI组件
 
+整体参考案例: -[自定义UI组件](https://spa.wangding.in/chapters/ch07-diy-ui-component.html)
+
 H5的组件大致经历了以下三个阶段: 
 H5内置空间 -> 第三方组件 -> 自定义组件(功能逐渐完善)  
 **用户可以根据自己的需求去选择对应的组件**  
@@ -63,3 +65,11 @@ $btn.css({
 
 ### 组件封装
 ![](https://s1.ax1x.com/2020/08/30/dbqJs0.md.png)
+
+
+### 组件参数化
++ container:组件的容器
++ title:定时器按钮的文字
++ sLength: 定时器的时长
++ enabled: 定时器按钮初始状态是否启用
++ 样式: 定时器按钮的样式
