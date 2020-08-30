@@ -10,5 +10,6 @@ H5内置空间 -> 第三方组件 -> 自定义组件(功能逐渐完善)
 + confirm
 + file 
 + color
+依次对应如下
 ![](https://s1.ax1x.com/2020/08/30/db4f0J.png)
 
