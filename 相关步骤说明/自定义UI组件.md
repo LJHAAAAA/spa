@@ -46,3 +46,20 @@ $('div.box').html(html);
 var $button = $('<input type="button" value="同意">');
 $('div.box').append($button);
 ```
+
+### 组件样式
++ 外部样式表
+```
+<link rel="stylesheet" href="03-button.css">
+<script src="03-button.js"></script>
+```
++ 内部直接设置
+```
+$btn.css({
+  'width':'130px',
+  ..........
+})
+```
+
+### 组件封装
+![](https://s1.ax1x.com/2020/08/30/dbqJs0.md.png)
