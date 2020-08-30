@@ -1,6 +1,7 @@
 # 自定义UI组件
 
-整体参考案例: -[自定义UI组件](https://spa.wangding.in/chapters/ch07-diy-ui-component.html) 
+整体参考案例: -[自定义UI组件](https://spa.wangding.in/chapters/ch07-diy-ui-component.html)  
+
 脑图大纲: -[自定义UI组件大纲](https://naotu.baidu.com/file/529af44e87eb1ed5566b54b2f23771c0?token=57398acc13e8604d)
 
 H5的组件大致经历了以下三个阶段: 
